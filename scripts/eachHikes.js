@@ -27,7 +27,6 @@ function saveHikeDocumentIDAndRedirect(){
     localStorage.setItem('hikeDocID', ID);
     window.location.href = 'review.html';
 }
-
 function populateReviews() {
     console.log("test");
     let hikeCardTemplate = document.getElementById("reviewCardTemplate");
@@ -85,5 +84,6 @@ function populateReviews() {
             });
         });
 }
+
 
 populateReviews();
